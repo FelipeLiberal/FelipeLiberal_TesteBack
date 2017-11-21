@@ -1,0 +1,7 @@
+CREATE TABLE tb_customer_account(
+  id_customer INT NOT NULL PRIMARY KEY,
+  cpf_cnpj CHAR(15),
+  nm_customer VARCHAR2(40),
+  is_active CHAR(1),
+  vl_total NUMBER(12,2)
+);
